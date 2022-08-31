@@ -48,6 +48,7 @@ isJonAlive();
 function attackJon(damage) {
     //jonSnowHealth - damage; NO ASSIGNMENT OPERATOR DOES NOT WORK
     jonSnowHealth -= damage; //THIS WILL WORK
+    //isJonAlive(); //If put this function here, can't use it outside because it's in the scope of this function
 }
 
 attackJon(30);
